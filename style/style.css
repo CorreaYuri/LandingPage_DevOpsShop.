@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    max-height: 100vh;
+}
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #eaeff3;
+}
+
+header{
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #333333;
+    box-shadow: 5px 5px 15px ;
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display:flex;
+    position: relative;
+}
+nav .itens_nav{
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px 25px;
+    border-radius: 11px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-family: 'Dosis', sans-serif;
+    color: #fcfcfc  ;
+    transition: 0.5s all;
+}
+nav .itens_nav:hover{
+    background-color: white;
+    color: #002033;
+}
+#titulo{
+    color: #fcfcfc;
+    line-height: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+
+}
+#subtitulo{
+    color: #fcfcfc;
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+}
+#container_titulo{
+    position: relative;
+    margin-top: 15px;
+    text-align: start;
+    padding-left:9px ;
+    
+}
+
+
+main{
+    display: flex;
+    background-color: #3333339d;
+    padding: 10px 20px;
+    box-shadow: 5px 5px 15px ;
+    border-radius: 5px;
+
+}
+#NomedaLoja{
+    margin: 20px 0;
+    color: #fcfcfc;
+}
+section{
+    text-align: start;
+    padding-left:50px ;
+
+}
+#p1 p{
+    max-width: 60%;
+    margin-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+    font-weight: 700;
+    color: #c0bcbc;
+}
+#ilustração{
+    position: relative;
+    right: 50px;
+}
+
+#ilustração img{
+    width: 380px;
+    position: relative;
+    right: 30px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 60%;
+    height: auto;
+    position: relative;
+    right: 40px;
+}
+#E-mailVisitante, #Visitante {
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+
+}
+#btn-enviar{
+    padding: 15px 60px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: 0.5s all;
+    background-color: rgb(120, 228, 120);
+    color: #fcfcfc;
+    
+}
+#btn-enviar:hover{
+    cursor: pointer;
+    color: #fcfcfc;
+    background-color: #333333;
+    padding: 15px 80px;
+    
+}
+
+footer{
+    background-color: #333333;
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 80px;
+    padding-left: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px ;
+}
+
+#nav_redeSociais{
+    display:flex;
+    position: absolute;
+    margin-left: 730px;
+    width: auto;
+    align-items: center;
+}
+#nav_redeSociais h3{
+    font-family: 'Dosis', sans-serif;
+    gap:30px;
+}
+
+footer a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: #fcfcfc;
+    font-family: 'Dosis', sans-serif;
+    transition: 0.5s all;
+}
+#facebook:hover{
+    background-color:#3b5998 ;
+    padding: 6px;
+    border-radius: 10px;
+}
+#Instagram:hover{
+    background-color:#91168f ;
+    padding: 6px;
+    border-radius: 10px;
+}
+#Twitter:hover{
+    background-color:#00acee ;
+    padding: 6px;
+    border-radius: 10px;
+}
