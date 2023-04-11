@@ -126,6 +126,7 @@ form{
 #btn-enviar{
     padding: 15px 60px;
     border-radius: 15px;
+    width: 80%;
     border: none;
     font-family: 'Dosis', sans-serif;
     font-weight: 600;
@@ -139,7 +140,6 @@ form{
     cursor: pointer;
     color: #fcfcfc;
     background-color: #333333;
-    padding: 15px 80px;
     
 }
 
